@@ -7,6 +7,11 @@ This repository contains four projects:
 - media-service (Spring Boot + Local file storage, can be extended to S3/MinIO)
 - frontend-app (React + TypeScript)
 
+## Student Details
+- **Name:** Dinelka Lakshan
+- **Student Registration Number:** 2301671039
+- **Email Address:** dinelkalakshan150@gmail.com
+
 ## Backend Services
 
 ### 1. course-service
