@@ -12,6 +12,9 @@ This repository contains four projects:
 - **Student Registration Number:** 2301671039
 - **Email Address:** dinelkalakshan150@gmail.com
 
+## Live Demo Video
+[▶ Watch Demo Video](https://drive.google.com/file/d/1sxCUMgiXhgwRCnJ1JWf9KUMYi9uLoFzf/view?usp=drive_link)
+
 ## Backend Services
 
 ### 1. course-service
