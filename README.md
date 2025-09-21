@@ -18,14 +18,15 @@ This repository contains four projects:
 ## Backend Services
 
 ### 1. course-service
-- Entity: Course(id, name, duration)
-- Endpoints:
-  - GET /courses
-  - GET /courses/{id}
-  - POST /courses
-  - DELETE /courses/{id}
-- Default port: 8081
-- Configure MySQL settings
+## 🚀 Course Service - MySQL Configuration (GCP)
+
+Below is the configuration for connecting **Spring Boot + MySQL** with a **Google Cloud SQL instance**:
+
+spring.datasource.host="34.66.233.178"  
+spring.datasource.port=3306
+spring.datasource.url="jdbc:mysql://${spring.datasource.host}:${spring.datasource.port}/courses?createDatabaseIfNotExist=true"  
+spring.datasource.username=your username  
+spring.datasource.password=your password
 
 ### 2. student-service
 - Document: Student(registrationNumber, fullName, address, contact, email)
